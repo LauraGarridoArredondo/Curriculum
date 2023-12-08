@@ -25,6 +25,6 @@ app.post('/api/save', async (req, res) => {
     res.send('Nombre guardado con éxito');
 });
 
-app.listen(port, () => {
-    console.log(`Servidor API corriendo en http://localhost:${port}`);
+app.listen(3000, () => {
+    console.log(`Servidor API corriendo en el puerto 3000`);
 });

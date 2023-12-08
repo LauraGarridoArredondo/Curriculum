@@ -1,0 +1,11 @@
+# Usa una imagen de node
+FROM node:16-alpine
+
+# Establece el directorio de trabajo
+WORKDIR /app
+
+# Copia todos los archivos de la aplicación
+COPY . .
+
+# Comando para ejecutar la aplicación
+CMD ["node", "app.js"]
